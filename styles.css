@@ -1,0 +1,144 @@
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: linear-gradient(90deg, salmon, hsl(350, 77%, 55%));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+}
+
+.order-summary {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.total {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    padding-right: 250px;
+    padding-bottom: 0px;
+}
+.total-final{
+    font-size: 15px;
+    color: white;
+    font-weight: bold ;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    padding-right: 250px;
+    padding-top: 10px;
+}
+.amount{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    display: inline;
+    text-align: right;
+}
+hr {
+    color: #f0f0f0;
+    padding: 0px;
+}
+.payment-method {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    margin: 20px; }
+
+    .payment-button {
+        display: flex;              
+        justify-content: center;    
+        margin: 20px;              
+    }
+    
+    .payment-button button {
+        display: inline;              
+        align-items: center;       
+        padding: 10px 10px;     
+        margin: 0 5px;            
+        border: 1px solid #ccc;  
+        background-color: white;            
+        font-size: 14px;   
+        color: gray;      
+    }
+    
+    .payment-button img {
+        display: inline;
+        width: 100px;               
+        height: 100px;             
+        margin-right: 5px;       
+    }
+    
+
+.payment-method button.selected {
+    border: 2px solid #ff5757;
+}
+
+.card-info {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 10px; 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-number label {
+    display: flex ;
+    justify-content: center;
+    font-size: 1.1em;
+    color: gray;
+
+}
+.card-number input {
+    width: 50%;
+    justify-content: center;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/*here i cant make them look like the model */
+
+.numbers label {
+    display: inline-block ;
+    justify-content: flex-start;
+    font-size: 1.1em;
+    color: gray;
+}
+.numbers input {
+    width: 30%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    display: inline;              
+    justify-content: center;   
+    margin-bottom: 30px;   
+}
+.buy-now button {
+    background-color: #ff5757;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    width: 40%;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+.help {
+    margin-top: 10px;
+    font-size: 0.8em;
+text-align: center;}
+    
+    /* to the mentor, i cant change the color of the text :( /*
